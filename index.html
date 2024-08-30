@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-screen" class="screen">
+        <h1>Blackjack</h1>
+        <p>"99% of gamblers quit before they win big"</p>
+        <button id="start-button">Start</button>
+    </div>
+
+    <div id="mode-selection" class="screen hidden">
+        <button id="endless-mode">Endless Mode</button>
+        <button id="money-mode">Play with Money</button>
+    </div>
+
+    <canvas id="game-canvas" class="screen hidden"></canvas>
+
+    <script src="webgl-utils.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
